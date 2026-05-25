@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/00-Console/">
+    <Project Path="src/talos.console/talos.console.csproj" Id="4806c3c8-8b28-4420-889e-ed00738318d9" />
+  </Folder>
+  <Folder Name="/02-Domain/">
+    <Project Path="src/talos.domain/talos.domain.csproj" Id="473c54a5-b4f2-4850-ae91-61b45265efd7" />
+  </Folder>
+  <Folder Name="/03-Infrastructure/">
+    <Project Path="src/talos.infrastructure/talos.infrastructure.csproj" Id="c1d46f0b-b1ff-4fc2-a832-4c66ae4735a9" />
+  </Folder>
+</Solution>
