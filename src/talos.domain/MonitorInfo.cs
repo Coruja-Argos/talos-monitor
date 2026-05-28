@@ -6,5 +6,8 @@ public record MonitorInfo(
     string Category,
     List<string> IPAddresses,
     List<string> MacAddresses,
-    List<string> Programs
+    List<string> Programs,
+    string CpuName,
+    double TotalRamGb,
+    double TotalStorageGb
 );

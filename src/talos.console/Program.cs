@@ -38,6 +38,21 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 Console.Write("[Categoria do S.O.]: ");
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine(info.Category);
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("[Processador]: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine(info.CpuName);
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("[Total Memória RAM]: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"{info.TotalRamGb} GB");
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("[Total Armazenamento]: ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine($"{info.TotalStorageGb} GB");
 Console.ResetColor();
 
 Console.ForegroundColor = ConsoleColor.Yellow;
